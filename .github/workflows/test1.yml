@@ -36,4 +36,5 @@ jobs:
         run: nuget restore Testappcenterdeploy.sln
         
       - name: Build Solution
-        run: msbuild $env:Solution_Path /p:Platform=$env:TargetPlatform Testappcenterdeploy.sln
+        run: msbuild Testappcenterdeploy.sln
+# run: msbuild $env:Solution_Path /p:Platform=$env:TargetPlatform Testappcenterdeploy.sln
