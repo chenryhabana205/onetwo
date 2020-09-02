@@ -37,4 +37,4 @@ jobs:
         
       - name: Build Solution
         run: msbuild Testappcenterdeploy.sln
-# run: msbuild $env:Solution_Path /p:Platform=$env:TargetPlatform Testappcenterdeploy.sln
+# run: msbuild $env:Solution_Path /p:Platform=$env:TargetPlatform Testappcenterdeploy.sln. /p:Configuration=Release
